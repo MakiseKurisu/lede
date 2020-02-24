@@ -279,6 +279,9 @@ tplink_board_detect() {
 	"094000"*)
 		model="TP-Link TL-WR940N"
 		;;
+	"088500"*)
+		model="TP-Link TL-WR885N"
+		;;
 	"094100"*)
 		model="TP-Link TL-WR941N/ND"
 
@@ -1005,6 +1008,9 @@ ar71xx_board_detect() {
 	"Mikrotik"*)
 		name=$(mikrotik_board_detect "$machine")
 		;;
+	*"MW4530R")
+		name="mc-mw4530r"
+		;;
 	*"MiniBox V1.0")
 		name="minibox-v1"
 		;;
@@ -1396,6 +1402,15 @@ ar71xx_board_detect() {
 		;;
 	*"TL-WR842N/ND v3")
 		name="tl-wr842n-v3"
+		;;
+	*"TL-WR880N v1")
+		name="tl-wr880n-v1"
+		;;
+	*"TL-WR881N v1")
+		name="tl-wr881n-v1"
+		;;
+	*"TL-WR885N v1")
+		name="tl-wr885n-v1"
 		;;
 	*"TL-WR902AC v1")
 		name="tl-wr902ac-v1"

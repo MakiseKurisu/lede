@@ -415,6 +415,7 @@ platform_check_image() {
 	gl-inet|\
 	lan-turtle|\
 	mc-mac1200r|\
+	mc-mw4530r|\
 	minibox-v1|\
 	minibox-v3.2|\
 	omy-g1|\
@@ -488,6 +489,9 @@ platform_check_image() {
 	tl-wr841n-v11|\
 	tl-wr842n-v2|\
 	tl-wr842n-v3|\
+	tl-wr880n-v1|\
+	tl-wr881n-v1|\
+	tl-wr885n-v1|\
 	tl-wr902ac-v1|\
 	tl-wr940n-v4|\
 	tl-wr940n-v6|\
